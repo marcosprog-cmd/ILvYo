@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffe6e6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #ff6f91;
+}
+
+.container {
+    max-width: 500px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #ff3366;
+}
+
+.heart {
+    font-size: 5em;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.heart:hover {
+    transform: scale(1.1);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #ff3366;
+}
+
+.hidden {
+    display: none;
+}
